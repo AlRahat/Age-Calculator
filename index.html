@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+  <div class="container">
+    <div class="input-section">
+      <div class="input">
+        <p>DAY</p>
+        <input type="number" class="day" placeholder=" DD" min="1" max="31" required>
+        <p class="require"></p>
+      </div>
+      <div class="input">
+        <p>MONTH</p>
+        <input type="number" class="month" placeholder="MM" min="1" max="12" required>
+        <p class="require"></p>
+      </div>
+      <div class="input">
+        <p>YEAR</p>
+        <input type="text" class="year" placeholder="YYYY">
+        <p class="require"></p>
+      </div>
+      <button class="btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+
+    </div>
+    <hr>
+    <div class="writing-section">
+      <p class="ot"> <span class="yearoutput"> -- </span>   years</p>
+      <p class=" ot"> <span class="monthoutput">-- </span>  months</p>
+      <p class=" ot"> <span class="dayoutput">--</span>  days</p>
+    </div>
+</div>
+
+
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Al Rahat</a>.
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
